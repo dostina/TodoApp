@@ -1,8 +1,9 @@
-package com.andrew.todoapp
+package com.andrew.todoapp.emi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import com.andrew.todoapp.R
 
 class HomeActivity : AppCompatActivity() {
 
