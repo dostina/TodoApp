@@ -2,14 +2,12 @@ package com.andrew.todoapp.emi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.andrew.todoapp.databinding.ActivityRecyclerBinding
 
-class activityProfile : AppCompatActivity() {
-
-
+class RecyclerActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityRecyclerBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profile2)
-        homeButton = findViewById(R.id.homeButton)
-
+        setContentView(binding.root)
     }
 }

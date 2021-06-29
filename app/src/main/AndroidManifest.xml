@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TodoApp">
-        <activity android:name=".emi.activityProfile"></activity>
-        <activity android:name=".ActivityProfile"></activity>
+        <activity android:name=".emi.RecyclerActivity"></activity>
+        <activity android:name=".emi.activityProfile" />
+        <activity android:name=".ActivityProfile" />
         <activity android:name=".emi.HomeActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
